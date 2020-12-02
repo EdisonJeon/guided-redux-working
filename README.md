@@ -2,6 +2,8 @@
 
 ## [Training Kit](https://github.com/LambdaSchool/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2002%20-%20Advanced%20State%20Management/Module%202%20-%20Redux)
 
+### [Previous Lesson Plan](https://github.com/LambdaSchool/Web_Redux_GuidedProject)
+
 ----
 
 ## Objectives
