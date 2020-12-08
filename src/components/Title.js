@@ -8,7 +8,6 @@ import { toggleEditing, updateTitle } from '../actions/titleActions';
 // 2a - build a mSTP function to pass into connect
 
 const Title = props => {
-  console.log(props);
   const [newTitleText, setNewTitleText] = useState();
 
   const handleChanges = e => {

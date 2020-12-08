@@ -27,7 +27,7 @@ By the end of this module, learners should be able to:
 
 ## Guided Project Slack Message
 > 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-redux
-> 2. Navigate into both the review and followAlong folders and run npm i to load dependences.
+> 2. Navigate into root folder and run npm i to load dependences.
 >
 > :point_right: Technical issues spinning up the project? Please head over to the help channel!
 > :point_right: If you fall behind during lecture and wish to catch up:
@@ -60,8 +60,8 @@ These are the questions used internally to check student understanding. Students
 
 #### When you wrap your app in Redux's <Provider> component, what prop do you pass in to it?
 * action
-* **reducer**
-* store
+* reducer
+* **store**
 * switch
 
 #### What do you return out of mapStateToProps?
@@ -82,9 +82,19 @@ These are the questions used internally to check student understanding. Students
 * const reducer = (state, action) => {}
 * const reducer = (initialState = state, action) => {}
 
-
-
 ## Guided Project Outline
+### Explaining Redux function
+* Discuss Redux's function
+* State management
+
+### Explaining Redux's purpose
+* Discuss Redux's purpose
+* Highlight global state once again.
+* Highlight connection to components.
+* Redux devtools
+* Highlight the centralized store
+* Highlight scalablity
+
 #### Adding Redux to a React app
 1. Add redux and react-redux as dependencies
 2. `import { createStore } from 'redux';`
@@ -177,6 +187,7 @@ export default connect(
 - In the React tools, check out props. We now have our action creator function passed in as a prop!
 
 16. Add an `onClick` handler on the button that will invoke a function called `updateTitle` (not to be confused with the action creator, which is available in this component as `props.updateTitle`).
+
 17. Create a function on the class called `updateTitle`. It will take in an event, call `preventDefault`, then call `this.props.updateTitle` and pass in the input text
 
 ```js
@@ -284,7 +295,8 @@ https://github.com/LambdaSchool/Car-Sales
 Here is a review of today's material.
 
 Key Terminology
-* 📝 *term* - [description](#)
+* 📝 *default arguments* - [description](#)
+* 📝 *function currying* - [description](#)
 
 Key Concepts
 * 📝 *concept* - [description](#)
