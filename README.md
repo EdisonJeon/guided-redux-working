@@ -287,16 +287,28 @@ Talk about this returning an action back to where we just were.
 
 ## After Class Message
 Hope you all enjoyed today's guided Lesson!
-A reminder if that office hours are from 3:30 - 4:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
+A reminder if that office hours are from 2:30 - 3:30 Lambda Time. 
+
+Support hours with Aaron are avalible at:
+  AM Monday - Friday | 6:00 a.m. - 8:00 a.m. PST
+  PM Monday - Thursday | 6:00 p.m. - 8:00 p.m. PST
+
+Don't forget to complete the days Check for Understanding and Pulse Checks! 
 
 Module Project
 https://github.com/LambdaSchool/Car-Sales
 
+Module Slides
+https://docs.google.com/presentation/d/1d1obD6mw8ZmUuvs5zYOvZvlhS5Nlo_cvI9oLbyx0Mow/edit?usp=sharing
+
 Here is a review of today's material.
 
 Key Terminology
-* 📝 *default arguments* - [description](#)
-* 📝 *function currying* - [description](#)
+* 📝 *default arguments* - [A means to set what value a javascript function argument should be when it is not defined.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+* 📝 *function currying* - [Functions that return other functions](https://www.youtube.com/watch?v=oU3LzOO0OGA)
+* 📝 *the connect function* - [A react-redux method that allows for components to be connect to state and dispatch through props.](https://react-redux.js.org/api/connect)
+* 📝 *combine reducers* - [A redux method that allows several different reducers used in one application](https://redux.js.org/api/combinereducers/)
+* 📝 *mapStateToProps* - [A programmer generated function that gets the application state and connects it to a components props](https://react-redux.js.org/7.1/using-react-redux/connect-mapstate#mapstatetoprops-will-not-run-if-the-store-state-is-the-same)
 
 Key Concepts
-* 📝 *concept* - [description](#)
+* 📝 *Redux* - [A framework used to create and mantain a reducer pattern](https://react-redux.js.org/introduction/why-use-react-redux)
