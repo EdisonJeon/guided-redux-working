@@ -21,7 +21,7 @@ By the end of this module, learners should be able to:
 * 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-redux)
 * 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-redux-solution)
 * 🐙 [Module Project](https://github.com/LambdaSchool/web-module-project-redux)
-* 🐙 [Module Project Solution](#)
+* 🐙 [Module Project Solution](https://github.com/LambdaSchool/web-module-project-redux-solution)
 
 ----
 
@@ -42,8 +42,11 @@ By the end of this module, learners should be able to:
 > Unit 3 | Sprint 2 | **Module 2: Redux**
 > _______________________________________________________
 > Zoom Link : *insert zoom link*
+>
 > Slido: *insert slido link*
+>
 > Guided Project: https://github.com/LambdaSchool/web-guided-project-redux
+>
 > Module Project: https://github.com/LambdaSchool/web-module-project-redux
 
 ----
@@ -279,7 +282,7 @@ Talk about this returning an action back to where we just were.
 
 
 ### Module Project Review
-* [Car Sales](https://github.com/LambdaSchool/Car-Sales)
+* [Car Sales](https://github.com/LambdaSchool/web-module-project-redux)
 
 ## Breakout Slack Messages
 
