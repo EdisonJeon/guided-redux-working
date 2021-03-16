@@ -11,8 +11,7 @@ import './styles.css';
 // Step 1 - Create store using createStore
 // pass in a reducer function
 // 1a - "Provide" the store to our app
-const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 function App() {
   return (

@@ -20,7 +20,7 @@ By the end of this module, learners should be able to:
 ## Instructor Resources
 * 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-redux)
 * 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-redux-solution)
-* 🐙 [Module Project](https://github.com/LambdaSchool/Car-Sales)
+* 🐙 [Module Project](https://github.com/LambdaSchool/web-module-project-redux)
 * 🐙 [Module Project Solution](#)
 
 ----
@@ -44,7 +44,7 @@ By the end of this module, learners should be able to:
 > Zoom Link : *insert zoom link*
 > Slido: *insert slido link*
 > Guided Project: https://github.com/LambdaSchool/web-guided-project-redux
-> Module Project: https://github.com/LambdaSchool/Car-Sales
+> Module Project: https://github.com/LambdaSchool/web-module-project-redux
 
 ----
 
@@ -289,14 +289,14 @@ Talk about this returning an action back to where we just were.
 Hope you all enjoyed today's guided Lesson!
 A reminder if that office hours are from 2:30 - 3:30 Lambda Time. 
 
-Support hours with Aaron are avalible at:
+Support hours with Krisda are avalible at:
   AM Monday - Friday | 6:00 a.m. - 8:00 a.m. PST
   PM Monday - Thursday | 6:00 p.m. - 8:00 p.m. PST
 
 Don't forget to complete the days Check for Understanding and Pulse Checks! 
 
 Module Project
-https://github.com/LambdaSchool/Car-Sales
+https://github.com/LambdaSchool/web-module-project-redux
 
 Module Slides
 https://docs.google.com/presentation/d/1d1obD6mw8ZmUuvs5zYOvZvlhS5Nlo_cvI9oLbyx0Mow/edit?usp=sharing
