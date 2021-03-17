@@ -36,16 +36,16 @@ By the end of this module, learners should be able to:
 >
 > `git fetch && git reset --hard origin/lecture`
 >
-> :point_right: Slido event: *insert slido link*
+> :point_right: Slido event: https://app.sli.do/event/msea4w8q
 
 ----
 
 ## Guided Project Zoom Invitation:
 > **Unit 3 | Sprint 2 | Module 2: Redux**
 > _______________________________________________________
-> Zoom Link : *insert zoom link*
+> Zoom Link : https://lambdaschool.zoom.us/j/3076367334
 >
-> Slido: *insert slido link*
+> Slido: https://app.sli.do/event/msea4w8q
 >
 > Guided Project: https://github.com/LambdaSchool/web-guided-project-redux
 >
