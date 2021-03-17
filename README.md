@@ -26,20 +26,22 @@ By the end of this module, learners should be able to:
 ----
 
 ## Guided Project Slack Message
+> **Welcome to Unit 3**
 > 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-redux
 > 2. Navigate into root folder and run npm i to load dependences.
 >
 > :point_right: Technical issues spinning up the project? Please head over to the help channel!
+>
 > :point_right: If you fall behind during lecture and wish to catch up:
 >
-> git fetch && git reset --hard origin/lecture
+> `git fetch && git reset --hard origin/lecture`
 >
 > :point_right: Slido event: *insert slido link*
 
 ----
 
 ## Guided Project Zoom Invitation:
-> Unit 3 | Sprint 2 | **Module 2: Redux**
+> **Unit 3 | Sprint 2 | Module 2: Redux**
 > _______________________________________________________
 > Zoom Link : *insert zoom link*
 >
@@ -290,11 +292,8 @@ Talk about this returning an action back to where we just were.
 
 ## After Class Message
 Hope you all enjoyed today's guided Lesson!
-A reminder if that office hours are from 2:30 - 3:30 Lambda Time. 
 
-Support hours with Krisda are avalible at:
-  AM Monday - Friday | 6:00 a.m. - 8:00 a.m. PST
-  PM Monday - Thursday | 6:00 p.m. - 8:00 p.m. PST
+A reminder if that office hours are from 2:30 - 3:30 Lambda Time. 
 
 Don't forget to complete the days Check for Understanding and Pulse Checks! 
 
