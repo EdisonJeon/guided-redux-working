@@ -304,7 +304,7 @@ https://github.com/LambdaSchool/web-module-project-redux
 GP Slides:
 https://docs.google.com/presentation/d/1d1obD6mw8ZmUuvs5zYOvZvlhS5Nlo_cvI9oLbyx0Mow/edit?usp=sharing
 GP Video: (processing)
-Thursday's Module Project Review: https://www.loom.com/share/d77ba3d65dc9456392a808c34bc323db PW: FIlOro
+Yesterday's Module Project Review: https://www.loom.com/share/d77ba3d65dc9456392a808c34bc323db PW: FIlOro
 Alternative GP Video: [Dustin Myers](https://youtu.be/VhI_eHHLlDU) | [Josh Jacobson](https://youtu.be/KoqY3I2EO8k) | [Warren C. Longmire](https://youtu.be/cOimnorDca8) | [Brian Kirkby](https://youtu.be/x_KNjGf2TYk)
 
 ### Key Terminology:
