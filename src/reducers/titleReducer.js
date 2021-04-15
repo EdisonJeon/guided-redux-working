@@ -1,6 +1,7 @@
 const initialState = {
     title: 'Dragon Member List 🐲',
-    editing: false
+    editing: false,
+    dragons: [{id:1, name: "dragon1"}, {id:1, name: "dragon2"}, {id:1, name: "dragon3"}]
   };
   
   // STEP 4:

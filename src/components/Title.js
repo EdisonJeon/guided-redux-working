@@ -8,6 +8,8 @@ import { toggleEditing, updateTitle } from '../actions/titleActions';
 // 2a - build a mSTP function to pass into connect
 
 const Title = props => {
+  console.log('props: ', props);
+
   const [newTitleText, setNewTitleText] = useState();
 
   const handleChanges = e => {
@@ -40,23 +42,14 @@ const Title = props => {
 };
 
 const mapStateToProps = state => {
-  console.log(state);
   return {
     editing: state.titleReducer.editing,
     title: state.titleReducer.title
   };
 };
 
-// const mapStateToProps = ({ editing, title }) => ({
-//   editing,
-//   title
-// });
-
 // connect is a "higher order component (HOC)"
-export default connect(
-  mapStateToProps,
-  { toggleEditing, updateTitle } // black magic part 🧙‍♂️
-)(Title); // function currying
+export default connect(mapStateToProps, { updateTitle })(Title);
 
 // connect is a function that gets called twice!
 // The first call:
