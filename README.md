@@ -299,11 +299,12 @@ and Pulse Checks!**
 **Here is a review of today's material.**
 
 ### Module Materials
-Module Project:
-https://github.com/LambdaSchool/web-module-project-redux
-GP Slides:
-https://docs.google.com/presentation/d/1d1obD6mw8ZmUuvs5zYOvZvlhS5Nlo_cvI9oLbyx0Mow/edit?usp=sharing
-Yesterday's Module Project Review: https://www.loom.com/share/d77ba3d65dc9456392a808c34bc323db PW: FIlOro
+Module Project: https://github.com/LambdaSchool/web-module-project-redux
+
+GP Slides: https://docs.google.com/presentation/d/1d1obD6mw8ZmUuvs5zYOvZvlhS5Nlo_cvI9oLbyx0Mow/edit?usp=sharing
+
+Monday's Module Project Review: https://www.loom.com/share/d77ba3d65dc9456392a808c34bc323db PW: FIlOro
+
 Alternative GP Video: [Dustin Myers](https://youtu.be/VhI_eHHLlDU) | [Josh Jacobson](https://youtu.be/KoqY3I2EO8k) | [Warren C. Longmire](https://youtu.be/cOimnorDca8) | [Brian Kirkby](https://youtu.be/x_KNjGf2TYk)
 
 ### Key Terminology:
@@ -315,3 +316,6 @@ Alternative GP Video: [Dustin Myers](https://youtu.be/VhI_eHHLlDU) | [Josh Jacob
 
 ### Key Concepts:
 * 📝 *Redux* - [A framework used to create and mantain a reducer pattern](https://react-redux.js.org/introduction/why-use-react-redux)
+
+### Stretch Tutorial:
+* 📝 [Redux Deep Dive](https://daveceddia.com/redux-tutorial/)
