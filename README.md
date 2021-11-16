@@ -1,8 +1,8 @@
 # Sprint 2 - Module 2 : Redux
 
-## [Training Kit](https://github.com/LambdaSchool/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2002%20-%20Advanced%20State%20Management/Module%202%20-%20Redux)
+## [Training Kit](https://github.com/BloomInstituteOfTechnology/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2002%20-%20Advanced%20State%20Management/Module%202%20-%20Redux)
 
-### [Previous Lesson Plan](https://github.com/LambdaSchool/Web_Redux_GuidedProject)
+### [Previous Lesson Plan](https://github.com/BloomInstituteOfTechnology/Web_Redux_GuidedProject)
 
 ----
 
@@ -18,16 +18,16 @@ By the end of this module, learners should be able to:
 ----
 
 ## Instructor Resources
-* 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-redux)
-* 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-redux-solution)
-* 🐙 [Module Project](https://github.com/LambdaSchool/web-module-project-redux)
-* 🐙 [Module Project Solution](https://github.com/LambdaSchool/web-module-project-redux-solution)
+* 🐙 [Guided Project Starter](https://github.com/BloomInstituteOfTechnology/web-guided-project-redux)
+* 🐙 [Guided Project Solution](https://github.com/BloomInstituteOfTechnology/web-guided-project-redux-solution)
+* 🐙 [Module Project](https://github.com/BloomInstituteOfTechnology/web-module-project-redux)
+* 🐙 [Module Project Solution](https://github.com/BloomInstituteOfTechnology/web-module-project-redux-solution)
 
 ----
 
 ## Guided Project Slack Message
 > **Welcome to Unit 3**
-> 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-redux
+> 1. Clone without forking the following repo: https://github.com/BloomInstituteOfTechnology/web-guided-project-redux
 > 2. Navigate into root folder and run npm i to load dependences.
 >
 > :point_right: Technical issues spinning up the project? Please head over to the help channel!
@@ -47,9 +47,9 @@ By the end of this module, learners should be able to:
 >
 > Slido: https://app.sli.do/event/msea4w8q
 >
-> Guided Project: https://github.com/LambdaSchool/web-guided-project-redux
+> Guided Project: https://github.com/BloomInstituteOfTechnology/web-guided-project-redux
 >
-> Module Project: https://github.com/LambdaSchool/web-module-project-redux
+> Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project-redux
 
 ----
 
@@ -284,7 +284,7 @@ Talk about this returning an action back to where we just were.
 
 
 ### Module Project Review
-* [Car Sales](https://github.com/LambdaSchool/web-module-project-redux)
+* [Car Sales](https://github.com/BloomInstituteOfTechnology/web-module-project-redux)
 
 ## Breakout Slack Messages
 
@@ -299,7 +299,7 @@ and Pulse Checks!**
 **Here is a review of today's material.**
 
 ### Module Materials
-Module Project: https://github.com/LambdaSchool/web-module-project-redux
+Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project-redux
 
 GP Slides: https://docs.google.com/presentation/d/1d1obD6mw8ZmUuvs5zYOvZvlhS5Nlo_cvI9oLbyx0Mow/edit?usp=sharing
 
