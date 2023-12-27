@@ -1,51 +1,43 @@
 import React from "react";
 import { connect } from "react-redux";
+import { updateNewMember, addMember } from "../../actions/dragonListActions";
+import DragonMember from "./DragonMember";
 
-import { addMember } from "../../actions/dragonListActions";
-
-class DragonList extends React.Component {
-  state = {
-    newMember: ""
+const DragonList = (props) => {
+  const handleClick = () => {
+    const randomNumber = Math.round(Math.random());
+    const newMember = {
+      name: props.newMember,
+      dragonStatus: randomNumber === 0 ? true : false,
+    };
+    props.addMember(newMember);
   };
 
-  handleChanges = (e) => {
-    this.setState({ newMember: e.target.value });
-  };
-
-  render() {
-    return (
-      <div>
-        <div className="friends-list">
-          {this.props.members.map((member, index) => (
-            <h4 key={index}>
-              {member.name}
-              {member.dragonStatus && <i className="fas fa-dragon" />}
-            </h4>
-          ))}
-        </div>
-        <input
-          type="text"
-          value={this.state.newMember}
-          onChange={this.handleChanges}
-          placeholder="Add new member"
-        />
-        <button
-          onClick={() => {
-            this.props.addMember(this.state.newMember);
-            this.setState({ newMember: "" });
-          }}
-        >
-          Add member
-        </button>
+  return (
+    <div>
+      <div className="friends-list">
+        {props.members.map((member, idx) => (
+          <DragonMember key={idx} member={member} />
+        ))}
       </div>
-    );
-  }
-}
+      <input
+        type="text"
+        value={props.newMember}
+        onChange={(e) => props.updateNewMember(e.target.value)}
+        placeholder="add new member"
+      />
+      <button onClick={handleClick}>Add Member</button>
+    </div>
+  );
+};
 
 const mapStateToProps = (state) => {
   return {
-    members: state.dragonListReducer.members
+    members: state.dragonListReducer.members,
+    newMember: state.dragonListReducer.newMember,
   };
 };
 
-export default connect(mapStateToProps, { addMember })(DragonList);
+export default connect(mapStateToProps, { updateNewMember, addMember })(
+  DragonList
+);

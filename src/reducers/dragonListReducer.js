@@ -13,7 +13,11 @@ export const dragonListReducer = (state = initialState, action) => {
     case UPDATE_NEW_MEMBER:
       return { ...state, newMember: action.payload };
     case ADD_MEMBER:
-      return { ...state, members: [...state.members, action.payload] };
+      return {
+        ...state,
+        members: [...state.members, action.payload],
+        newMember: "",
+      };
     default:
       return state;
   }
