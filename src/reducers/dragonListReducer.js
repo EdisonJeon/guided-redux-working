@@ -1,4 +1,7 @@
-const initialState = {
+import { ADD_MEMBER, UPDATE_NEW_MEMBER } from "../actions/dragonListActions";
+
+export const initialState = {
+  newMember: "",
   members: [
     { name: "Jojo Zhang", dragonStatus: true },
     { name: "Brandon Harris", dragonStatus: false },
@@ -7,17 +10,10 @@ const initialState = {
 
 export const dragonListReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "ADD_MEMBER":
-      const luckyNumber = Math.round(Math.random());
-      console.log(luckyNumber);
-      const newMember = {
-        name: action.payload,
-        dragonStatus: luckyNumber === 1 ? true : false,
-      };
-      return {
-        ...state,
-        members: [...state.members, newMember],
-      };
+    case UPDATE_NEW_MEMBER:
+      return { ...state, newMember: action.payload };
+    case ADD_MEMBER:
+      return { ...state, members: [...state.members, action.payload] };
     default:
       return state;
   }

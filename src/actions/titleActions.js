@@ -1,11 +1,15 @@
-// Step 3 - Action Creators
-// function that returns an action object
-// under-the-hood, Redux will take that action object that was returned, and dispatch it to the reducer
+export const TOGGLE_EDITING = "TOGGLE_EDITING";
+export const UPDATE_TITLE = "UPDATE_TITLE";
+export const UPDATE_NEW_TITLE = "UPDATE_NEW_TITLE";
 
 export function toggleEditing() {
-    return { type: 'TOGGLE_EDITING' };
+  return { type: "TOGGLE_EDITING" };
 }
 
-export const updateTitle = newTitle => {
-    return { type: 'UPDATE_TITLE', payload: newTitle };
+export const updateTitle = (newTitle) => {
+  return { type: "UPDATE_TITLE", payload: newTitle };
+};
+
+export const updateNewTitle = (newText) => {
+  return { type: "UPDATE_NEW_TITLE", payload: newText };
 };
